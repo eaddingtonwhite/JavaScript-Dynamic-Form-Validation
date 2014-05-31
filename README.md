@@ -5,7 +5,7 @@ JavaScript Dynamic form validation in backbone.js (logic could be used anywhere 
 
 ##Phone Number
 
-###Event
+####Event
 
 ```javascript
 
@@ -16,7 +16,9 @@ events:{
 
 ````
 
-###Logic
+####Logic
+
+Use this if you want to format the input as the user enters the 10th digit
 
 ```javascript
 
@@ -28,7 +30,10 @@ events:{
     val = val.replace(/^(\d{3})(\d{3})(\d{4})$/, "($1) $2-$3", val);
 
     evt.target.value = val;
+```
+Use this to format as the user enters each number
 
+```javascript
     // Checking as user types
     var val = evt.target.value.replace(/\D/g, '');
     var newVal = '';
