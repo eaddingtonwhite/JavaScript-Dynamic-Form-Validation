@@ -22,14 +22,14 @@ Use this if you want to format the input as the user enters the 10th digit
 
 ```javascript
 
- //Checking at end
-    var val = evt.target.value.replace(/\D/g, '');
-    if(val.length==11){
-      val = val.substr(0, val.length-1);
-    }
-    val = val.replace(/^(\d{3})(\d{3})(\d{4})$/, "($1) $2-$3", val);
+   //Checking at end
+   var val = evt.target.value.replace(/\D/g, '');
+   if(val.length==11){
+   val = val.substr(0, val.length-1);
+   }
+   val = val.replace(/^(\d{3})(\d{3})(\d{4})$/, "($1) $2-$3", val);
 
-    evt.target.value = val;
+   evt.target.value = val;
 ```
 Use this to format as the user enters each number
 
