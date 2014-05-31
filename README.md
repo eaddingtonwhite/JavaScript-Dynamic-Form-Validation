@@ -1,4 +1,4 @@
-JavaScript-Dynamic-Form-Validation
+JavaScript Dynamic Form Validation
 ==================================
 
 JavaScript Dynamic form validation in backbone.js (logic could be used anywhere though)
