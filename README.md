@@ -3,8 +3,8 @@ JavaScript Dynamic Form Validation
 
 JavaScript Dynamic form validation using backbone.js
 
-[Phone Number](#Phone Number)  
-[Social Security](#Social Security)  
+[Phone Number](#phone-number)  
+[Social Security](#social-security)  
 
 
 ###Phone Number
